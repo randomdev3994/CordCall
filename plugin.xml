@@ -4,7 +4,7 @@
     <author>Okode</author>
     <license>MIT</license>
     <js-module name="twiliovideo" src="www/twiliovideo.js">
-        <clobbers target="window.twiliovideo" />
+        <clobbers target="navigator.twiliovideo" />
     </js-module>
     <engines>
         <engine name="cordova" version=">=7.0.0" />
